@@ -9,6 +9,26 @@
     <title>Pasithea</title>
 </head>
 <body>
+<script>
+    function sendMail() {
+      const name = document.getElementById('name').value
+      const email = document.getElementById('email').value
+      const content = document.getElementById('content').value
+
+      Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "leplan.ludwig@yopmail.com",
+    Password : "031D6DFBA00A5BA5DF319F5F967804461511",
+    To : 'boulinguez.yves@orange.fr',
+    From : "leplan.ludwig@yopmail.com",
+    Port: 2525,
+    Subject : "Nouvelle demande de contact",
+    Body : `Email : ${email} Nom : ${name} sujet:${content}`
+}).then(
+  message => alert(message)
+);
+  }
+</script>
 
     <header>
         <nav>
@@ -102,13 +122,13 @@
 
         <h2 id="contact">Me contacter</h2>
 
-        <form>
-            <input type="text" placeholder="nom">
-            <input type="email" placeholder="email">
-            <textarea type="text" placeholder="Votre message ici..."></textarea>
-            <button class="btn">Envoyer</button>
+       
+            <input id="name" type="text" placeholder="nom">
+            <input id="email" type="email" placeholder="email">
+            <textarea id="content" type="text" placeholder="Votre message ici..."></textarea>
+            <button onclick="sendMail()" class="btn">Envoyer</button>
 
-        </form>
+
 
         <div class="premier-trait"></div>
 
@@ -126,6 +146,9 @@
 
     </footer>
 
+    <script src="https://smtpjs.com/v3/smtp.js">
+
+</script>
 
     
 </body>
