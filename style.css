@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin : 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align : center; /* cela va center tous les h2*/
+    padding-top: 30px; /*espace en haut */
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------------------- Navbar -------------------------- */
+
+header nav {
+    overflow : hidden ; /*ce qui dépasse sera caché*/
+    background-color: whitesmoke;
+    position:fixed; /*elle sera toujours visible et ne de bougera pas*/
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float:right;
+    font-size:1.2em; /*taille qui s'adapte à la taille de l'ecran*/
+}
+
+header li a {
+    display : block;
+    text-align: center;
+    padding : 18px 16px;
+}
+
+header li a:hover {
+    color:whitesmoke;
+    background:black;
+}
+
+#logo{
+    font-weight: bold;
+    float:left;
+    font-size : 1.7em;
+}
+
+/****************************** Image principale ***********/
+
+#image_principale {
+    padding-top: 70px;
+    background: url(photo1.png) no-repeat fixed 50% 50% ; /* sera centrée et ne bougera pas*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 6em;
+    text-align: center;
+    margin-top: 110px;
+    color: whitesmoke;
+    text-shadow: 1px 3px 2px black;
+}
+
+.premier-trait{
+    height:1px;
+    width: 25%;
+    margin : 0 auto;
+    background-color: aqua;
+    box-shadow: 1px 3px 2px black;;
+}
+
+h3{
+    text-align:center;
+    color: whitesmoke;
+    font-size:3em;
+    margin-top:10px;
+}
+
+/*******************Presentation*********************/
+
+#presentation{
+    background-color: whitesmoke;
+    padding: 10px 0px 100px 0;
+}
+
+#texte-presentation{
+    padding: 10px 20%;
+}
+
+#texte-presentation p {
+    padding:20px;
+    margin-top:25px;
+    font-size:1.2em;
+    font-weight: 500;
+}
+
+#services{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.image_service img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+
+#services h4{
+    padding: 14px 0;
+    text-align :center;
+    font-size:2em;
+}
+
+.image_service img:hover{
+    transform : scale(1.05); /*grandit l'image de 5%*/
+    transition: 0.5s linear;
+}
+
+/******************Cartes*******************/
+.carte .image-carte img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.carte  .details-carte h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.carte .details-carte p{
+    font-size : 22px;
+    font-weight: 600px;
+}
+
+
+.container{
+    width: 1000px;
+    max-width:80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carte{
+    position:relative;
+    margin: 20px 0;
+    background-color: #fff;
+    /*transform-style: preserve-3d;
+    transition: 1s;*/
+    height:300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+  
+}
+
+.carte .image-carte{
+    position:relative;
+    width: 100%;
+    height:100%;
+    transform-origin: left;
+    z-index: 1; /* pour que l'image passe au dessus de la div "details"*/
+    transition: 1s;  
+    
+}
+
+.carte:hover  .image-carte{
+    transform: rotateY(-135deg);
+}
+
+/*.carte .image-carte img{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+}*/
+
+.carte .details-carte{
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+    padding:20px 0;
+}
+
+/******************Footer**********************/
+
+footer{
+    background-color: #524a3a;
+    color:antiquewhite;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto; /* centre la section */
+    max-width: 500px;
+    margin-top:10px; /* ecart avec les inputs */
+}
+
+input, textarea, button {
+    outline:none;
+    width: 50%;
+    padding: 15px 10px;
+    margin: 2px 0; /* un ecart entre les inputs */
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    background-color: antiquewhite;
+    cursor:pointer;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: rgb(173, 38, 38);
+    transition: 0.2s linear;
+}
+
+/***************copyright et icons ********************/
+
+
+#copy_and_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0; /*espace avec le haut*/
+}
+
+#copyright{
+    text-align: left;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+#icons {
+    float:right;
+    text-align:right;
+}
+
+#icons a {
+    display :inline-block;
+    margin: 0 20px;
+    color: white;
+    padding: 0px 15px;
+    font-size: 1.2em;
+}
+
+#copyright:hover, #icons a:hover{
+    transform: scale(1.10);
+    transition: 0.2s linear;
+}
+
