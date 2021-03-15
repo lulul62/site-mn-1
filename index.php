@@ -53,7 +53,7 @@
         <div id="texte-presentation">
             <h2>Bienvenue chez Pasithea</h2>
             <p>Découvrez à mon domicile votre nouvel espace
-                pour prendre soin de vous. Je m'occupe de vous à travers mes divers compétences
+                pour prendre soin de vous. Je m'occupe de vous à travers mes diverses compétences
                 en sophrologie, polarité et massage ayurvédique.Je vous accompagne en naturopathie par des conseils
                 et des protocoles personnalisés adaptés aux besoins
                 de chacun.</p>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="details-carte">
                     <h2>Bien être et détente</h2>
-                    <p>Je m'occupe de vous à travers mes divers compétences en sophrologie, polarité et massage ayurvédique.</p>
+                    <p>Je m'occupe de vous à travers mes diverses compétences en sophrologie, polarité et massage ayurvédique.</p>
                 </div>
             </div>
     
