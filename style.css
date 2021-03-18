@@ -27,6 +27,20 @@ a{
     color: black;
 }
 
+.description p {
+    text-align :justify;
+    margin : 20px 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+h5{
+    text-align:center;
+    color: black;
+    font-size:1.5em;
+    margin-top:30px; 
+}
+
 /*-------------------------- Navbar -------------------------- */
 
 header nav {
@@ -61,6 +75,21 @@ header li a:hover {
     font-size : 1.7em;
 }
 
+
+@media (max-width : 600px){
+    header #logo {
+        display:none;
+    }
+
+    header nav {
+        display : flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+
+
 /****************************** Image principale ***********/
 
 #image_principale {
@@ -85,6 +114,8 @@ h1{
     margin : 0 auto;
     background-color: aqua;
     box-shadow: 1px 3px 2px black;;
+    margin-bottom:40px;
+    margin-top:40px;
 }
 
 h3{
@@ -92,7 +123,18 @@ h3{
     color: whitesmoke;
     font-size:3em;
     margin-top:10px;
+    text-shadow: 1px 3px 2px black;
 }
+
+h4{
+    text-align:center;
+    color: whitesmoke;
+    font-size:2.5em;
+    margin-top:10px; 
+    text-shadow: 1px 3px 2px black;
+}
+
+
 
 /*******************Presentation*********************/
 
@@ -157,7 +199,7 @@ h3{
 .container{
     width: 1000px;
     max-width:80%;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -206,6 +248,101 @@ h3{
     padding:20px 0;
 }
 
+@media (max-width : 600px){
+  .container{
+      display:none;
+  }
+}
+
+/******************Description**********************/
+
+#section1 {
+    display:grid;
+    grid-template-columns: 45% 55%;
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+#section1 .image{
+    background : url(photo9.jpg) center/cover;
+}
+
+.section2 {
+    display:grid;
+    grid-template-columns: 45% 55%;
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+.section2 .image{
+    background : url(photo7.jpg) center/cover;
+}
+
+.section3 {
+    display:grid;
+    grid-template-columns: 45% 55%;
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+.section3 .image{
+    background : url(photo6.jpg) center/cover;
+}
+
+.section4 {
+    display:grid;
+    grid-template-columns: 45% 55%;
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+.section4 .image{
+    background : url(photo8.jpg) center/cover;
+}
+
+.section5 {
+    display:grid;
+    grid-template-columns: 45% 55%;
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+.section5 .image{
+    background : url(photo11.jpg) center/cover;
+}
+
+/***************Tarifs*******************/
+
+/***tarifs*******/
+
+
+
+
+/**** tarifs mobile ***/
+
+@media (max-width : 600px) {
+
+    #tarifs-mobile{
+        background-color: rgba(250, 235, 215, 0.562);
+        min-height: 300px;
+    }
+   
+    #tarifs-mobile h4{
+        padding-top:40px;
+        text-align :center;
+        font-size:2em;
+        color : black;
+        text-shadow: none;
+    }
+
+    #tarifs-mobile p{
+        text-align:center;
+        padding:30px 0;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-bottom: 40px;
+} 
+}
 /******************Footer**********************/
 
 footer{
@@ -239,14 +376,14 @@ textarea{
 }
 
 button{
-    background-color: antiquewhite;
+    background-color:white;
     cursor:pointer;
     margin-bottom: 30px;
 }
 
 button:hover{
-    background-color: rgb(173, 38, 38);
-    transition: 0.2s linear;
+    background-color: antiquewhite;
+    transition: 0.1s linear;
 }
 
 /***************copyright et icons ********************/
@@ -280,8 +417,73 @@ button:hover{
 #copyright:hover, #icons a:hover{
     transform: scale(1.10);
     transition: 0.2s linear;
+}  
+
+/***************info pied de page*************/
+
+.footer{
+    margin-top:40px;
+    width: 100%;
+    background-color: inherit;
+    padding-bottom: 20px;
 }
 
+.contenu_footer{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
 
-/*********responsive*************/
+.mes_services{
+    text-align: justify;
+}
+
+.mes_services h5{
+    text-align: center;
+    margin-top:20px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+}
+
+.mes_services li{
+    font-size:1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.horaire{
+    text-align: justify;
+}
+
+.horaire h5{
+    text-align: center;
+    margin-top:20px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+}
+
+.horaire li{
+    font-size:1em;
+    font-weight: 400;
+}
+
+.reseaux_sociaux h5{
+    text-align: center;
+    margin-top:20px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+}
+
+.reseaux_sociaux li{
+    font-size:1em;
+    font-weight: 400;
+    color:white;
+    text-align:center;
+}
+
+.reseaux_sociaux a{
+    color: white;
+    font-size: 1em;
+}
+
 
