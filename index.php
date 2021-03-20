@@ -36,7 +36,7 @@
             <ul>
                 <li id="logo"><a href="#">Pasithea</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#">Tarifs</a></li>
+                <li><a href="#container_tarifs">Tarifs</a></li>
                 <li><a href="#section1">description</a></li>
                 <li><a href="#presentation">Présentation</a></li>
             </ul>
@@ -108,14 +108,14 @@
     </section>
 
     
-    
+ 
     <section id="section1">
 
         <div class="description">
             <h5>LE MASSAGE AYURVEDIQUE</h5>
-            <p>il  est réputé pour ses vertus relaxantes, tant sur le plan physique que mental.
+            <p>Il  est réputé pour ses vertus relaxantes, tant sur le plan physique que mental.
                 Modelage non-thérapeutique, il permet également d’éliminer les toxines du corps. <br><br>
-                Le massage ayurvédique permet de vous relaxer profondément , en  permettant de relâcher les tensions nerveuses et musculaires qui entravent la libre circulation de l’énergie dans son corps.
+                Le massage ayurvédique permet de vous relaxer profondément, en  permettant de relâcher les tensions nerveuses et musculaires qui entravent la libre circulation de l’énergie dans son corps.
                 D’autres bénéfices du massage ayurvédique sont fréquemment constatés, tels qu’un apaisement des troubles du sommeil et une stimulation du système de défense immunitaire. <br><br>
                 En débloquant les « noeuds » du corps, le massage ayurvédique agit également sur la circulation sanguine et la circulation lymphatique.
                 Comment se passe le massage?
@@ -126,7 +126,7 @@
         <div class="image"></div>
 
     </section>
-    
+ 
     
     
     <section class="section2">
@@ -141,7 +141,7 @@
                 détend les muscles,
                 stimule les systèmes nerveux qui sont dans les pieds,
                 permet d'avoir une meilleure qualité de sommeil.
-                Pour ce massage, vous serez massé des pieds jusqu'au genoux.</p>
+                Pour ce massage, vous serez massé des pieds jusqu'aux genoux.</p>
 
         </div>
 
@@ -189,7 +189,7 @@
                 Son action vise plutôt à rééquilibrer ou à remettre en action l’énergie de la personne. <br><br>En fonction des circuits énergétiques qu’il désire réharmoniser, le praticien place simplement ses mains sur des endroits précis du corps ou y exerce de légères pressions.
                 La polarité du corps respecte les principes naturels de l'électromagnétisme.<br><br>
                 La polarité s'adresse à tous.
-                <br><br>Toutefois non recommandé en cas de fièvre, thrombose, phlébite, ulcère et zones variqueuses importantes.
+                <br><br>Elle est toutefois non recommandée en cas de fièvre, thrombose, phlébite, ulcère et zones variqueuses importantes.
                 Un petit questionnaire sera effectué lors de votre première séance.</p>
 
         </div>
@@ -201,32 +201,48 @@
     
     
     
-    <!-- <section id="tarifs">
-
-        <h4>Les tarifs</h4>
-
-        <div class="boite">
-            <div class="devant">
-
-            </div>
-            <div class="arriere">
+    <section id="container_tarifs">
+        
+        <div class="tarifs">
+            <h6>Les tarifs</h6>
+        </div>
+        
+        <div class = "carte_tarifs">
+            <div class = "carte_prix1">
+            
+                <div class = "image_carte_prix"></div>
+            
+                <div class = "details_tarifs">
                 
+                    <p>Massage ayurvédique: 80€ l'heure et demie.
+                    <br><br>
+                    Polarité: 60€ pour 1h.</p>
+
+                    <button>En savoir plus</button>
+                
+            
+                </div>
+            </div>
+
+            <div class = "carte_prix2">
+            
+                <div class = "image_carte_prix"></div>
+            
+                <div class = "details_tarifs2">
+                
+                    <p>Massage podale: 40€ les 45 minutes.
+                    <br><br>
+                    Massage du dos: 30€ les 30 minutes.
+                    <br><br>
+                    Massage visage et cuir chevelu: 30€ les 30 minutes.</p>
+
+                    <button>En savoir plus</button>
+                
+            
+                </div>
             </div>
         </div>
-
-
-    </section> -->
-
-    <section id="tarifs-mobile">
-        
-        <h4>Les tarifs</h4>
-        <p>Massage ayurvédique: 80€ l'heure et demi.<br><br>
-            Polarité: 60€ pour 1h.<br><br>
-            Massage podale: 40€ les 45 minutes.<br><br>
-            Massage du dos: 30€ les 30 minutes.<br><br>
-            Massage visage et cuir chevelu: 30€ les 30 minutes.
-            </p>
-
+   
     </section>
 
     

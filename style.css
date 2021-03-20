@@ -75,6 +75,8 @@ header li a:hover {
     font-size : 1.7em;
 }
 
+/****NavBar version mobile******/
+
 
 @media (max-width : 600px){
     header #logo {
@@ -179,6 +181,7 @@ h4{
 }
 
 /******************Cartes*******************/
+
 .carte .image-carte img{
     height: 300px;
     width: 300px;
@@ -232,13 +235,6 @@ h4{
     transform: rotateX(-135deg);
 }
 
-/*.carte .image-carte img{
-    position:absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    height:100%;
-}*/
 
 .carte .details-carte{
     position:absolute;
@@ -247,6 +243,8 @@ h4{
     text-align:center;
     padding:20px 0;
 }
+
+/****Cartes version mobile*******/
 
 @media (max-width : 600px){
   .container{
@@ -311,38 +309,190 @@ h4{
     background : url(photo11.jpg) center/cover;
 }
 
+/*****Description version mobile**********/
+
+@media (max-width : 600px ) {
+    #section1 {
+        display:flex;
+        flex-direction: column;
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    
+    #section1 .image{
+        background : url(photo9.jpg) center/cover;
+        height: 200px;
+    }
+    
+
+    .section2 {
+        display:flex;
+        flex-direction: column;
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .section2 .image{
+        background : url(photo7.jpg) center/cover;
+        height: 200px;
+    }
+
+    .section3 {
+        display:flex;
+        flex-direction: column;
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .section3 .image{
+        background : url(photo6.jpg) center/cover;
+        height: 200px;
+    }
+
+    .section4 {
+        display:flex;
+        flex-direction: column;
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .section4 .image{
+        background : url(photo8.jpg) center/cover;
+        height: 200px;
+    }
+
+    .section5 {
+        display:flex;
+        flex-direction: column;
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .section5 .image{
+        background : url(photo11.jpg) center/cover;
+        height: 200px;
+    }
+}
+
+
+
 /***************Tarifs*******************/
 
-/***tarifs*******/
 
 
-
-
-/**** tarifs mobile ***/
-
-@media (max-width : 600px) {
-
-    #tarifs-mobile{
-        background-color: rgba(250, 235, 215, 0.562);
-        min-height: 300px;
-    }
-   
-    #tarifs-mobile h4{
-        padding-top:40px;
-        text-align :center;
-        font-size:2em;
-        color : black;
-        text-shadow: none;
-    }
-
-    #tarifs-mobile p{
-        text-align:center;
-        padding:30px 0;
-        font-size: 1.2em;
-        font-weight: 500;
-        padding-bottom: 40px;
-} 
+#container_tarifs{
+    margin: 50px auto;
+    min-height: 500px;
 }
+
+.tarifs h6{
+    text-align:center;
+    font-size:2.5em;
+    margin-top:10px;
+    text-transform: uppercase;
+    color:black;
+}
+
+
+
+.carte_tarifs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/***tarifs carte 1*******/
+
+.carte_prix1{
+    position: relative;
+    text-align:center;
+    margin : 40px 0;
+    height:450px;
+    width:300px;
+    gap:30px;
+    border:1px solid black;
+    border-radius:8px;
+}
+
+.carte_prix1 .image_carte_prix{
+    height: 200px;
+    width:100%;
+    background-image: url(photo1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.details_tarifs p{
+    position:absolute;
+    text-align: center;
+    align-items:center;
+    font-size: 1em;
+    font-weight: 500;
+    top: 60%;
+}
+
+.details_tarifs button{
+    position:absolute;
+    text-align: center;
+    align-items:center;
+    outline:none;
+    background-color:antiquewhite;
+    width: 50%;
+    padding: 15px 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    top:80%;
+    right:23%;
+}
+
+/***tarifs carte 2*******/
+
+.carte_prix2{
+    position: relative;
+    text-align:center;
+    margin : 40px 0;
+    height:450px;
+    width:300px;
+    gap:30px;
+    border:1px solid black;
+    border-radius:8px;
+}
+
+.carte_prix2 .image_carte_prix{
+    height: 200px;
+    width:100%;
+    background-image: url(photo1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.details_tarifs2 p{
+    position:absolute;
+    text-align: center;
+    align-items:center;
+    font-size: 1em;
+    font-weight: 500;
+    top: 55%;
+}
+
+.details_tarifs2 button{
+    position:absolute;
+    text-align: center;
+    align-items:center;
+    outline:none;
+    background-color:antiquewhite;
+    width: 50%;
+    padding: 15px 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    top:80%;
+    right:23%;
+}
+
+
+
+
 /******************Footer**********************/
 
 footer{
@@ -385,39 +535,6 @@ button:hover{
     background-color: antiquewhite;
     transition: 0.1s linear;
 }
-
-/***************copyright et icons ********************/
-
-
-#copy_and_icons{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0; /*espace avec le haut*/
-}
-
-#copyright{
-    text-align: left;
-    margin: 0 20px;
-    font-size: 1.2em;
-}
-
-#icons {
-    float:right;
-    text-align:right;
-}
-
-#icons a {
-    display :inline-block;
-    margin: 0 20px;
-    color: white;
-    padding: 0px 15px;
-    font-size: 1.2em;
-}
-
-#copyright:hover, #icons a:hover{
-    transform: scale(1.10);
-    transition: 0.2s linear;
-}  
 
 /***************info pied de page*************/
 
@@ -484,6 +601,23 @@ button:hover{
 .reseaux_sociaux a{
     color: white;
     font-size: 1em;
+}
+
+
+/******footer version Mobile****/
+
+
+@media (max-width : 600px){
+    .contenu_footer{
+        display:flex;
+        flex-direction: column;
+    }
+    .horaire li{
+        font-size:1em;
+        font-weight: 400;
+        text-align:center;
+    }
+
 }
 
 
