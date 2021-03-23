@@ -245,6 +245,25 @@
    
     </section>
 
+    <section id="carte_cadeau">
+        
+        <div>
+            <h5>La carte cadeau</h5>
+
+            <p>Envie de faire plaisir à l'un de vos proches, pensez à la carte cadeau Pasithea
+             Relaxation.
+            </p>
+        </div>
+        
+        <div class="carte_cadeau">
+            <img src="carte_cadeau.jpg" alt="carte">
+        </div>
+        
+        
+
+
+    </section>
+
     
     
     <footer>
