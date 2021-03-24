@@ -382,15 +382,18 @@ h4{
 
 
 
-#container_tarifs{
+#container_tarifs {
     margin: 50px auto;
     min-height: 500px;
+    background-color: whitesmoke;
 }
 
-.tarifs h6{
+
+
+#container_tarifs .tarifs h6{
     text-align:center;
     font-size:2.5em;
-    margin-top:10px;
+    padding-top: 40px;
     text-transform: uppercase;
     color:black;
 }
@@ -511,6 +514,7 @@ h4{
 
 .carte_cadeau img {
    
+    margin-top:30px;
     max-height:300px;
     max-width: 500px;
     margin-bottom:40px;

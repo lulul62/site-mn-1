@@ -218,7 +218,7 @@
                     <br><br>
                     Polarité: 60€ pour 1h.</p>
 
-                    <button>En savoir plus</button>
+                    <button><a href="#contact">En savoir plus</a></button>
                 
             
                 </div>
@@ -236,7 +236,7 @@
                     <br><br>
                     Massage visage et cuir chevelu: 30€ les 30 minutes.</p>
 
-                    <button>En savoir plus</button>
+                    <button><a href="#contact">En savoir plus</a></button>
                 
             
                 </div>
@@ -301,11 +301,11 @@
                         <h5>Mes horaires</h5>
                         <ul>
                             <li>❌ Lundi</li>
-                            <li>✅ mardi 10h-18h</li>
-                            <li>✅ mercredi 10h-18h</li>
-                            <li>✅ jeudi 10h-18h</li>
-                            <li>✅ vendredi 10h-18h</li>
-                            <li>✅ samedi 10h-18h</li>
+                            <li>✅ mardi 10h-12h / 13h-18h</li>
+                            <li>✅ mercredi 10h-12h / 13h-18h</li>
+                            <li>✅ jeudi 10h-12h / 13h-18h</li>
+                            <li>✅ vendredi 10h-12h / 13h-18h</li>
+                            <li>✅ samedi 10h-12h / 13h-18h</li>
                             <li>❌ dimanche</li>
                         </ul>
                     </div>
