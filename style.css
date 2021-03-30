@@ -522,6 +522,15 @@ h4{
     transform: translateX(-50%);
 }
 
+/*****************Localisation***********************/
+
+.image_localisation{
+    height: 450px;
+    max-width: 450px;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
 
 
 /******************Footer**********************/
